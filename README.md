@@ -46,12 +46,43 @@ The core objective of this project is to develop a classification model with a m
 ```
 
 ---
-## Installation & Usage
 
-1. Clone the repository.
-2. Install dependencies: `pip install -r requirements.txt`
-3. Open and run the notebook: `Project_Sprint_10.ipynb`
+## Installation & Environment Setup
 
+This project uses an isolated Python environment. To replicate this setup, run the following commands in your terminal:
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/fiorellatrigo/mobile_plan_classification_ML](https://github.com/fiorellatrigo/mobile_plan_classification_ML)
+cd mobile_plan_classification_ML
+
+```
+
+### 2. Create and activate the virtual environment
+
+* **Windows:**
+
+```powershell
+python -m venv env
+.\env\Scripts\activate
+
+```
+
+* **Mac/Linux:**
+
+```bash
+python -m venv env
+source env/bin/activate
+
+```
+
+### 3. Install dependencies & Run
+
+```bash
+pip install -r requirements.txt
+jupyter notebook notebooks/megaline_subscriber_classification_model.ipynb
+
+```
 ---
 *Analysis by Fiorella Trigo M.*  
 *Part 2 of the Megaline Optimization Series*
